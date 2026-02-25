@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js app running on custom AMI! by using packer workshop by kotesh');
+  res.send('Hello from Node.js app running on custom AMI! by using packer workshop by kotesh deploying nodejs app with packer');
 });
 // veera
 
